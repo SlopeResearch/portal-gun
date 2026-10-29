@@ -52,7 +52,7 @@
 | ADM mass of the portal | 0 (ideal) | nothing is attracted to it |
 | Tidal force inside the disc | 0 | interior is exactly flat |
 | Lifetime without coupling | $10^{-28}$ – $10^{-20}$ s | Ford–Roman quantum inequalities |
-| Lifetime with coupling | $\tau=\min\{\tau_{\rm pump},\tau_{\rm couple}\}\,[1-f_{\rm loc}\Sigma E_d/E_c]$ | ≈ 2.5 s per 0.5 mL dose at 20 °C |
+| Lifetime with coupling | $\tau=\min\lbrace \tau_{\rm pump},\tau_{\rm couple}\rbrace \,[1-f_{\rm loc}\Sigma E_d/E_c]$ | ≈ 2.5 s per 0.5 mL dose at 20 °C |
 | Thermal threshold of a dose | $E_c\approx25$ J | 0.6 g, $c_p\approx2$ J/(g·K), +20 K |
 | Entangled pairs per person | $\sim10^{29}$ | Maldacena–Stanford–Yang bit counting |
 | Pairs carried by one dose | $\le10^{26}$ | hence the network supplies ≥ 99 % |

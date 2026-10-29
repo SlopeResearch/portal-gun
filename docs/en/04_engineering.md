@@ -124,7 +124,7 @@ Calculation: $N_{\rm EPR}\approx$ entropy in bits ($\approx4.3\cdot10^{26}$ bit/
 | Citadel [E4] | $10^{12}$ kg | 1.5 km | $4\cdot10^{38}$ | $1.4\cdot10^{29}$ J (≈6 minutes of the Sun's luminosity) | $5\cdot10^{-19}$ | $4\cdot10^{37}$ pairs/s |
 
 Conclusions:
-- **Human.** A 0.5 mL dose contains $\sim10^{21}$–$10^{22}$ molecules; at the density of 02 ($10^4$ pairs per molecule) this is $\le10^{26}$, i.e. 200–1000 times less than needed. The entire 50 mL cartridge covers only 10–25 % of a human. Hence at least $99\,\%$ of the pairs must come from the anchor and the network [E1], or $10^7$–$10^8$ pairs per molecule are needed.
+- **Human.** A 0.5 mL dose contains $\sim10^{21}$–$10^{22}$ molecules; at the density of 02 ($10^4$ pairs per molecule) this is $\le10^{26}$, i.e. 200–1000 times less than needed. The entire 50 mL cartridge covers only 10–25 % of a human. Hence at least $99$ % of the pairs must come from the anchor and the network [E1], or $10^7$–$10^8$ pairs per molecule are needed.
 - **Ship.** The same reasoning applies. In addition, $R\approx5$ m is needed: the entire mass of the ship must be inside the opening.
 - **Citadel.** The rim is $2.9\cdot10^{47}$ J, i.e. 1.6 $M_\odot c^2$ in absolute value: this is the scale of a star, not of a device. The anchor memory at $10^4$ qubits per molecule is no less than $\sim4\cdot10^9$ kg (4 million t). Pre-preparing the pairs at 300 K costs $10^{18}$ J. A flux of $4\cdot10^{37}$ pairs/s is unattainable by any network known today. The transfer of the Citadel (S3E1) is the work of **infrastructure**, not of the gun; the terminal merely initiates it.
 - **Asymmetry.** File 02 §6 predicts that counter-traffic partially compensates for the consumption of the reserve and prolongs the lifetime.

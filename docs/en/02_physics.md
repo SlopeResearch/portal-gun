@@ -162,13 +162,13 @@ that is, the radius of curvature must be no smaller than $\sim10^8$ m **[KNOWN f
 - **P4.** The source of the negative averaged NEC on the rim is a nonlocal coupling of GJW/MQ type, $\delta H=g\sum_i\mathcal O^{(1)}_i\mathcal O^{(2)}_i$, between the rims of the two mouths, realized by entangled "liquid ↔ anchor" pairs.
 
 **Equations:**
-$$\tau_{\rm life}\simeq\min\Big\{\tau_{\rm couple},\ \underbrace{(3N_{\rm eff}\hbar Ra^2/16c^3|E_-|)^{1/4}}_{\text{QI, if the coupling is off}}\Big\},\qquad \tau_{\rm couple}\simeq\frac{N_{\rm EPR}}{\dot N_{\rm EPR}},$$
-$$m_{\max}\simeq\min\Big\{\tfrac{2}{\pi}\eta|E_-|/c^2,\ m_{\rm bit}N_{\rm EPR}\Big\},\qquad t_{\rm collapse}\sim\pi R/2c,\qquad |\Delta a|_{\rm tidal}=0\ \text{in the opening}.$$
+$$\tau_{\rm life}\simeq\min\Big\lbrace \tau_{\rm couple},\ \underbrace{(3N_{\rm eff}\hbar Ra^2/16c^3|E_-|)^{1/4}}_{\text{QI, if the coupling is off}}\Big\rbrace ,\qquad \tau_{\rm couple}\simeq\frac{N_{\rm EPR}}{\dot N_{\rm EPR}},$$
+$$m_{\max}\simeq\min\Big\lbrace \tfrac{2}{\pi}\eta|E_-|/c^2,\ m_{\rm bit}N_{\rm EPR}\Big\rbrace ,\qquad t_{\rm collapse}\sim\pi R/2c,\qquad |\Delta a|_{\rm tidal}=0\ \text{in the opening}.$$
 
 **What we have added to known physics (explicitly):**
 - **[ASM-1]** A macroscopic stable ring of negative tension of order $c^4/4G$ exists (a vorton with a "minus"). Known physics has no mechanism for this, as already noted in [2].
 - **[ASM-2]** The achronal ANEC is violated [10]. In the model it is violated **only** by the nonlocal coupling P4, not by local QFT, which reduces ASM-2 to ASM-3/4.
-- **[ASM-3]** A macroscopic ($\gtrsim10^{29}$ per passenger), long-lived, and transportable reservoir of entanglement in the liquid. *[reconciled at synthesis] A dose of 0.5 mL holds $\le10^{26}$ pairs, so the liquid carries only a local "key"; $\ge99\,\%$ of the pairs are supplied by the anchor network (04, E1).*
+- **[ASM-3]** A macroscopic ($\gtrsim10^{29}$ per passenger), long-lived, and transportable reservoir of entanglement in the liquid. *[reconciled at synthesis] A dose of 0.5 mL holds $\le10^{26}$ pairs, so the liquid carries only a local "key"; $\ge99$ % of the pairs are supplied by the anchor network (04, E1).*
 - **[ASM-4]** The target point already contains the partners of the entangled pairs ("coordinates").
 - **[ASM-5]** The classical coordinate channel runs along a shortcut through the bulk (an RS-like multiverse). Everett branches are not used.
 - **[ASM-6]** The inertia of the carrier liquid slows the collapse from nanoseconds to tenths of a second. *[reconciled at synthesis] Rejected; replaced by E2 (rim inertia at small $\varepsilon$), see 00_summary.md.*

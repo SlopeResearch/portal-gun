@@ -1,5 +1,6 @@
 r"""Make $...$ math safe for GitHub's MathJax renderer:
 - inside math: < -> \lt, > -> \gt (unless already a LaTeX macro like \lt, \ll, <= etc.)
+- inside math: \{ \} -> \lbrace \rbrace, trailing \% moved outside
 - inside math located in table rows: |x| -> \lvert x\rvert (bare | splits table cells)
 Usage: python3 fix_math.py file.md [...]"""
 import re
@@ -14,6 +15,10 @@ def fix_segment(seg: str, in_table: bool) -> str:
     body = re.sub(r"(?<!\\)<(?!<)", r"\\lt ", body)
     body = re.sub(r"(?<!\\)>(?!>)", r"\\gt ", body)
     body = body.replace("\\lt =", "\\le ").replace("\\gt =", "\\ge ")
+    # GitHub's Markdown pass turns \{ into { before MathJax runs -> "Missing delimiter for \Big"
+    body = body.replace("\\{", "\\lbrace ").replace("\\}", "\\rbrace ")
+    # \% would likewise become a bare % (a TeX comment): move the sign outside the math
+    body = re.sub(r"\\,\\%\$$", "$ %", body)
     if in_table:
         # pair bare pipes left-to-right as \lvert ... \rvert
         parts = re.split(r"(?<!\\)\|", body)

@@ -20,7 +20,9 @@ Lore conclusion: the damping mode has indirect support in the wiki. The conserva
 
 In the game Portal, GLaDOS says that momentum is conserved between portals. The key rule: **velocity relative to the portal normal**. If the entrance has outward normal $\mathbf n_1$ and the exit has $\mathbf n_2$, then a body that flew in against $\mathbf n_1$ flies out along $\mathbf n_2$, while the tangential component is conserved or rotated (angle $\alpha$):
 
-$$\mathbf v_{out}=\mathcal R\,\mathbf v_{in},\qquad \mathcal R=\begin{pmatrix}R_\alpha&0\\0&-1\end{pmatrix}\ \text{in the bases } (\mathbf e_1,\mathbf e_2,\mathbf n).$$
+```math
+\mathbf v_{out}=\mathcal R\,\mathbf v_{in},\qquad \mathcal R=\begin{pmatrix}R_\alpha&0\\0&-1\end{pmatrix}\ \text{in the bases } (\mathbf e_1,\mathbf e_2,\mathbf n).
+```
 
 This is a "reflection with rotation" in the throat frame. The minus on the normal component means: it entered against $\mathbf n_1$, it exited along $\mathbf n_2$. The magnitude of the speed is conserved [derived].
 

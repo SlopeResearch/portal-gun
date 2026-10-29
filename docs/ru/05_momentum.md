@@ -20,7 +20,9 @@
 
 В игре Portal ГЛаДОС говорит, что импульс сохраняется между порталами. Ключевое правило: **скорость относительно нормали портала**. Если вход имеет внешнюю нормаль $\mathbf n_1$, а выход $\mathbf n_2$, то тело, влетевшее против $\mathbf n_1$, вылетает вдоль $\mathbf n_2$, а касательная компонента сохраняется или поворачивается (угол $\alpha$):
 
-$$\mathbf v_{out}=\mathcal R\,\mathbf v_{in},\qquad \mathcal R=\begin{pmatrix}R_\alpha&0\\0&-1\end{pmatrix}\ \text{в базисах } (\mathbf e_1,\mathbf e_2,\mathbf n).$$
+```math
+\mathbf v_{out}=\mathcal R\,\mathbf v_{in},\qquad \mathcal R=\begin{pmatrix}R_\alpha&0\\0&-1\end{pmatrix}\ \text{в базисах } (\mathbf e_1,\mathbf e_2,\mathbf n).
+```
 
 Это "отражение с поворотом" в системе горловины. Минус при нормальной компоненте означает: вошло против $\mathbf n_1$, вышло по $\mathbf n_2$. Скорость по модулю сохраняется [вывод].
 

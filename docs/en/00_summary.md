@@ -41,7 +41,7 @@ The research programme of 10 items includes 6 experiments that are feasible toda
 - **P1. Geometry.** The portal is a vacuum Gibbons–Volkov ring wormhole [4]: two Minkowski sheets glued along a disk of radius $R$ with orientation preserved. On the faces $T_{\mu\nu}=0$ and the curvature tensor vanishes, so there are no tidal forces [2, 4]. **[KNOWN]**
 - **P2. Rim.** The angle excess is $|\delta|=2\pi$, i.e. the linear density is $\mu=-c^2/4G$. The rim is regularized by a tube of radius $a$, where $\ell_P\ll a\ll R$. Its position is set by the core of the fluid's quantized vortex ring [03 §1.2]. **[KNOWN] + [D1], [ASM-7]**
 - **P3. Source of tension.** The negative averaged NEC on the rim is provided by a nonlocal coupling $\delta H=g\sum_i\mathcal O^{(1)}_i\mathcal O^{(2)}_i$ between the modes of the rim and of the anchor [13–16]. Local QFT mechanisms (squeezed vacuum, Casimir) serve as a seed and as a precision reserve, but not as the foundation. **[S1]**
-- **P4. Resource.** The coupling consumes entangled pairs. The fluid carries a local key ($\le10^{26}$ pairs per dose); the anchor network supplies $\ge99\,\%$ of the pairs, the addressing, and the classical channel through the bulk. **[E1], [ASM-3,4,5]**
+- **P4. Resource.** The coupling consumes entangled pairs. The fluid carries a local key ($\le10^{26}$ pairs per dose); the anchor network supplies $\ge99$ % of the pairs, the addressing, and the classical channel through the bulk. **[E1], [ASM-3,4,5]**
 - **P5. Film.** A bicellar membrane 0.1–1 μm thick is stretched over the rim: it is opaque, gas-tight, and self-healing [03]. The film is the only matter in the opening. **[KNOWN-prototype] + [D4, D6]**
 - **P6. Frame gluing.** The isometry of the shell transfers the 4-velocity with a stiffness parameter $\kappa\in[0,1]$. The value of $\kappa$ is stored in the pair; at $\kappa\lt 1$ the dissipation is taken up by the anchor. **[M1], [E3]**
 
@@ -55,7 +55,7 @@ $$t_c\approx\frac{R}{c}\sqrt{\frac{2}{\varepsilon}},\qquad t_c\ge\frac{\pi R}{2c
 The visible 0.1–0.3 s correspond to $\varepsilon\sim10^{-15}$–$10^{-16}$ with a smooth decay of the pumping. The final avalanche takes nanoseconds. **[ESTIMATE, toy model]**
 
 **Lifetime** (single formula):
-$$\boxed{\tau=\min\{\tau_{\rm pump},\ \tau_{\rm couple}\}\cdot\Big[1-\frac{f_{\rm loc}\sum E_d}{E_c}\Big],\qquad \sum m_i\le m_{\max}}$$
+$$\boxed{\tau=\min\lbrace \tau_{\rm pump},\ \tau_{\rm couple}\rbrace \cdot\Big[1-\frac{f_{\rm loc}\sum E_d}{E_c}\Big],\qquad \sum m_i\le m_{\max}}$$
 where
 - $\tau_{\rm pump}=\eta\,\varepsilon_{\rm chem}V/P_{\rm loss}(T)$ is the chemical pumping resource of the dose. For $V=0.5$ mL we get $\approx2.5$ s at 20 °C; $\tau_{\rm pump}$ halves with every +10 °C (03 §4);
 - $\tau_{\rm couple}=N_{\rm EPR}/\dot N_{\rm EPR}$ is the time for which the network sustains the coupling (02 §7);
@@ -65,7 +65,7 @@ where
 If the coupling is switched off, $\tau\to\tau_{\rm QI}\lesssim(3N\hbar Ra^2/16c^3|E_-|)^{1/4}\sim10^{-28}$–$10^{-20}$ s (02 §2.3). The canonical "seconds" exist only while the coupling is alive.
 
 **Mass limit** (02 §4):
-$$m_{\max}=\min\Big\{\frac{2}{\pi}\frac{\eta|E_-|}{c^2},\ \frac{N_{\rm EPR}}{n_{\rm bit}}\Big\},\qquad n_{\rm bit}\approx4.3\cdot10^{26}\ \text{bit/kg}.$$
+$$m_{\max}=\min\Big\lbrace \frac{2}{\pi}\frac{\eta|E_-|}{c^2},\ \frac{N_{\rm EPR}}{n_{\rm bit}}\Big\rbrace ,\qquad n_{\rm bit}\approx4.3\cdot10^{26}\ \text{bit/kg}.$$
 For $m_{\max}=1$ t the reserve is $\eta\approx7\cdot10^{-25}$. Passing 100 kg costs $(\pi/2)mc^2=1.4\cdot10^{19}$ J of negative energy drawn from the reserve.
 
 **Frame gluing** (05 §3, §6):
@@ -77,7 +77,7 @@ $$u_2^\mu=E_2\,\mathcal R\,E_1^{-1}u_1^\nu,\qquad \mathbf v_{\rm out}=\mathbf V_
 |---|---|---|---|
 | **Gun** (terminal) | dispenser, vortex nozzle, pumping, address register, control of $\tau$ and $\kappa$, LED | vortex rings [21], EHD, spectrometer | 100 g battery, $\sim10^4$ shots of 5–15 J |
 | **Fluid** (local key) | rim template, film, chemiluminescent pumping, $\le10^{26}$ pairs, authentication | bicelles, ferro-LC, polariton condensate [24], BPEA | 0.5 mL per portal, 50 mL cartridge |
-| **Anchor** (remote mouth) | pair partners, local frame $E_2$, reception of dissipation and of the "quantum interest" | ASM-4, E3 | $\ge99\,\%$ of the pairs |
+| **Anchor** (remote mouth) | pair partners, local frame $E_2$, reception of dissipation and of the "quantum interest" | ASM-4, E3 | $\ge99$ % of the pairs |
 | **Network** (infrastructure) | addressing ("C-137"), log, classical channel through the bulk, coverage = Central Finite Curve | ASM-5, RS bulk [19] | up to $10^{28}$ pairs/s per person |
 
 The log layer is optional: the J-22 gun is "unregistered and untraceable", and bootleg fluid works. The anchor layer is mandatory.
@@ -107,7 +107,7 @@ The log layer is optional: the J-22 gun is "unregistered and untraceable", and b
 | Opacity, "jelly" on touch (R2) | A bicellar film with a phosphor and scattering platelets: optically thick, elastic |
 | Gas does not pass (Fart, S2E2) | The film is gas-tight; a solid body passes at $\mathrm{We}\gg1$, and the film self-heals [23]. Natural wormholes have no film, so gas passes through them |
 | "In fast, out fast" regime | $\kappa=1$: Israel's geodesic gluing, $\mathbf v_{\rm out}=\mathcal R\mathbf v_{\rm in}$, $E_d=0$, the portal's life is not shortened |
-| Damping of a fall | $\kappa=0$: 14 kJ (70 kg, 20 m/s) goes to the anchor. Predictions: an injury of $\sim41g$ under instantaneous damping, hence a ramped $\kappa(\tau)$ is needed; after damping, the portal closes earlier by $\sim30\,\%$ |
+| Damping of a fall | $\kappa=0$: 14 kJ (70 kg, 20 m/s) goes to the anchor. Predictions: an injury of $\sim41g$ under instantaneous damping, hence a ramped $\kappa(\tau)$ is needed; after damping, the portal closes earlier by $\sim30$ % |
 | Cutting of the Gromflomite (S2E2) | The portal is opened inside the body: the rim passes through the matter and carries the parts to different sheets. This is a topological, perfectly smooth cut |
 | Death of Nick (S5E9) | The mouth lands in its own partner: self-collision of a portal wormhole gives a curvature singularity [22]; both pairs and the carrier perish |
 | Mini-portal on the palm (S5E9) | The drop carries a fragment of the key; the anchor is the last address used (Nick's stash). $\lvert E_-\rvert \propto R$, so a micro-ring is cheap |
@@ -165,8 +165,8 @@ Strength ratings: **K** — known physics; **E** — extrapolation of the known;
 
 1. **What holds the portal.** The coupling of 02 (P3) is adopted. D3 from 03 is redundant and is downgraded to a fallback: if S1 does not deliver the required magnitude, D3 will take its place without changing the rest of the architecture. The fluid sets the geometry: the vortex determines where the coupled modes sit. Edit: 03 §2.1.
 2. **Collapse.** ASM-6 is rejected: the fluid is lighter than the rim by a factor of $10^{29}$. E2 is adopted: $t_c\approx(R/c)\sqrt{2/\varepsilon}$. The visible 0.1 s gives $\varepsilon\approx2\cdot10^{-15}$, while 5 ns is the lower limit at $\varepsilon\to1$ (coupling dump, hack, self-destruction). Edit: 02 §6, §7.
-3. **Lifetime.** The single formula of §2.2. $10^{-20}$ s is the limit without coupling, 2.5 s is $\tau_{\rm pump}$ of a 0.5 mL dose, and $\tau_0$ from 05 equals $\min\{\tau_{\rm pump},\tau_{\rm couple}\}$. A single threshold $E_c=\rho Vc_p(T_{\max}-T)\approx25$ J is introduced. Edit: 05 §5.
-4. **Entanglement.** Fixed: "the fluid is the local key, the network is the resource". A dose contains $\le10^{26}$ pairs, a person needs $10^{29}$, so $\ge99\,\%$ of the pairs come from the anchor. Edit: 02 §7.
+3. **Lifetime.** The single formula of §2.2. $10^{-20}$ s is the limit without coupling, 2.5 s is $\tau_{\rm pump}$ of a 0.5 mL dose, and $\tau_0$ from 05 equals $\min\lbrace \tau_{\rm pump},\tau_{\rm couple}\rbrace $. A single threshold $E_c=\rho Vc_p(T_{\max}-T)\approx25$ J is introduced. Edit: 05 §5.
+4. **Entanglement.** Fixed: "the fluid is the local key, the network is the resource". A dose contains $\le10^{26}$ pairs, a person needs $10^{29}$, so $\ge99$ % of the pairs come from the anchor. Edit: 02 §7.
 5. **Temperature.** The physical temperature of the fluid is 0–40 °C. "0.1 nK" is the energy scale of the coupled channel $\hbar\ln S/2\pi t_*$, not the temperature of the medium; maintaining it requires decoupling (S2). Edit: 02 §8.
 6. **Transparency and gas.** The bare geometry is transparent (02), but the opening is covered by a bicellar film (P5). Therefore the portal is opaque from both sides, the exit is not visible before passage, gas does not pass, and this agrees with R2 and R8. Light is almost free for the budget (02 §6): a thin film would give a "window" (prediction). Edit: 02 §1.4, 03 §6.
 7. **Deficit angle.** $|\delta|=2\pi$ is adopted: only it gives an exactly flat opening. $|\mu|=c^2/4G$, $|E_-|=1.9\cdot10^{44}$ J/m, and the rim recoil in 05 is recomputed ($7\cdot10^{-25}$ m/s). The conclusions of 03 and 05 do not change. Edits: 03 §2.1, 05 §4.
